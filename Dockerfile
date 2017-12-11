@@ -25,6 +25,8 @@ RUN bundle install
 
 ADD . /web/
 
+RUN bundle exec rake db:migrate
+
 
 # if you need to run post-deploy rake tasks that bake or precompute something
 # on the local filesystem, do it here
