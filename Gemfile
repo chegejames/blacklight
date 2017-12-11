@@ -65,5 +65,5 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'devise-guests', '~> 0.6'
 gem 'blacklight-marc', '~> 6.1'
-
 gem 'unicorn'
+gem 'aws-sdk'
