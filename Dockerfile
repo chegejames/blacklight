@@ -34,8 +34,6 @@ RUN bundle exec rake db:migrate
 
 EXPOSE 8080
 
-RUN ["chmod", "+x", "/web/init.sh"]
-
 CMD bundle exec unicorn -c ./config/unicorn.conf.rb
 
 
